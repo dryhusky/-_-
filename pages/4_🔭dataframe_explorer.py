@@ -102,7 +102,7 @@ with col2:
     )
 
 
-    data_url = "./data/전국_교통사고_민원포함_긍부정요인완료_1017.csv"
+    data_url = "./data/전국_교통사고_민원포함_긍부정요인완료_1017.csv"
 
     df = pd.read_csv(data_url)
     st.dataframe(filter_dataframe(df))
