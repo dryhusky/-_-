@@ -68,7 +68,8 @@ with col2:
 
     #if uploaded_file is not None:
         # CSV 파일 읽기
-    df = pd.read_csv("/Users/ksy/문서/공모전/제3회_민원데이터분석경진대회/data/제3회민원데이터분석경진대회_모의데이터/민원데이터_전체통합_주소완료_1003.csv")
+        
+    df = pd.read_csv("/Users/ksy/문서/공모전/제3회_민원데이터분석경진대회/data/민원데이터_전체통합_주소완료_1003.csv")
     df1 = pd.read_csv("/Users/ksy/문서/공모전/제3회_민원데이터분석경진대회/data/전국_교통사고_민원포함_긍부정요인완료_1017.csv")
 
     #initial_location = [df['위도'].mean(), df['경도'].mean()]
