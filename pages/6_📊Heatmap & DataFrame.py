@@ -11,9 +11,9 @@ import matplotlib.font_manager as fm
 
 st.set_page_config(page_title="히트맵 시각화",layout="wide",page_icon="📊")
 
-
-plt.rc("font", family = "AppleGothic")
-sns.set(font="AppleGothic", 
+# 직접 폰트 지정
+plt.rc("font", family = "NanumGothic")
+sns.set(font="NanumGothic", 
 rc={"axes.unicode_minus":False}, style='white')
 
 
