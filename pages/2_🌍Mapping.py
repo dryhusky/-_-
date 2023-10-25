@@ -10,7 +10,7 @@ with col2:
     
     st.markdown("# 교통민원 데이터 지도 시각화")
 
-    data = pd.read_csv("data/민원데이터_전체통합_주소완료_1003.csv")
+    data = pd.read_csv("./data/민원데이터_전체통합_주소완료_1003.csv")
 
     # Streamlit selectbox 위젯으로 CSV 파일 선택하기
     selected_csv_name = st.selectbox("Select a dataset:",data['신고유형'].unique())
