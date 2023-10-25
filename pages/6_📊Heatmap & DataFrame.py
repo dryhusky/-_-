@@ -11,12 +11,6 @@ import matplotlib.font_manager as fm
 
 st.set_page_config(page_title="히트맵 시각화",layout="wide",page_icon="📊")
 
-#
-# 업무에 활용하는 시나리오를 작성해서 ppt로 작성하기
-# 전환에 대한 의지를 적극적으로 하셔야할듯
-# 온라인에서 돌악가ㅔ 하는 거
-# 데이터가 서버에 들어가야함.
-#
 
 plt.rc("font", family = "AppleGothic")
 sns.set(font="AppleGothic", 
