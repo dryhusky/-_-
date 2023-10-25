@@ -7,7 +7,7 @@ from statsmodels.tsa.arima.model import ARIMA
 st.set_page_config(page_title="time",layout="wide",page_icon="📅")
 
 # 2022년 데이터로 데이터셋을 로드합니다
-df = pd.read_csv('/Users/ksy/문서/공모전/제3회_민원데이터분석경진대회/data/시계열분석용데이터.csv')
+df = pd.read_csv('./data/시계열분석용데이터.csv')
 
   # 실제 데이터 파일의 경로로 바꿔주세요
 
