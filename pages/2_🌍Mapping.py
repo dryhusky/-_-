@@ -8,7 +8,7 @@ st.set_page_config(page_title="교통민원 데이터 지도 시각화",layout="
 col1, col2, col3 = st.columns([1,5,2])
 with col2:
     
-    st.markdown("# 교통민원 데이터 지도 시각화")
+    st.markdown("# 🌍교통민원 데이터 지도 시각화")
 
     data = pd.read_csv("./data/민원데이터_전체통합_주소완료_1003.csv")
 
