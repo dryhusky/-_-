@@ -88,7 +88,7 @@ with col2:
         forecast_df = pd.DataFrame({'날짜': forecast_dates, '예측된_민원_전체건수_2023': forecast})
 
         # 2023년 예측 데이터 시각화
-        st.write('## 2023년 민원 건수 예측')
+        st.write('# 📅2023년 민원 건수 예측')
         st.line_chart(forecast_df.set_index('날짜'))
 
         # 2023년 예측 데이터 표시
