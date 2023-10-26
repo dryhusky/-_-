@@ -12,8 +12,7 @@ import matplotlib.font_manager as fm
 st.set_page_config(page_title="히트맵 시각화",layout="wide",page_icon="📊")
 # --
 # 한글폰트 적용
-        
-fontRegistered()
+
 font_path = './font/NanumGothic-Bold.ttf'
 fontprop = fm.FontProperties(fname=font_path, size=18)
 
