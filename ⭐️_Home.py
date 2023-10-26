@@ -8,16 +8,14 @@ st.set_page_config(
     page_icon="⭐️",
     initial_sidebar_state="expanded"
 )
-col1, col2, col3 = st.columns([1,5,2])
-with col2:
-    st.title("🚘교통관련 데이터 시각화 갤러리")
-    st.markdown(
-            """
-    안녕하세요~~👋
 
-    **교통사고 민원데이터 갤러리**에 오신 것을 환영합니다!
+st.title("🚘교통관련 데이터 시각화 갤러리")
+st.markdown(
+        """
+안녕하세요~~👋
 
-    왼쪽 사이드 바에서 다양한 시각화를 둘러보세요~!
+**교통사고 민원데이터 갤러리**에 오신 것을 환영합니다!
 
-    """
-    )
+왼쪽 사이드 바에서 다양한 시각화를 둘러보세요~!
+
+"""
