@@ -10,15 +10,25 @@ import matplotlib.font_manager as fm
 
 
 st.set_page_config(page_title="히트맵 시각화",layout="wide",page_icon="📊")
-
-# 폰트 파일의 위치를 지정
+# --
+# 한글폰트 적용
+        
+fontRegistered()
 font_path = './font/NanumGothic-Bold.ttf'
-# 폰트 프로퍼티를 생성
 fontprop = fm.FontProperties(fname=font_path, size=18)
 
 sns.set(font=fontprop.get_name(),rc={"axes.unicode_minus":False},
-        style='darkgrid')
+    style='darkgrid')
 plt.rc('font', family=fontprop.get_name())
+
+# 폰트 파일의 위치를 지정
+# font_path = './font/NanumGothic-Bold.ttf'
+# # 폰트 프로퍼티를 생성
+# fontprop = fm.FontProperties(fname=font_path, size=18)
+
+# sns.set(font=fontprop.get_name(),rc={"axes.unicode_minus":False},
+#         style='darkgrid')
+# plt.rc('font', family=fontprop.get_name())
 
 # sns.set(font="Malgun Gothic", 
 #         rc={"axes.unicode_minus":False},
