@@ -14,10 +14,11 @@ st.set_page_config(page_title="히트맵 시각화",layout="wide",page_icon="�
 # 폰트 파일의 위치를 지정
 font_path = './font/NanumGothic-Bold.ttf'
 # 폰트 프로퍼티를 생성
-fontprop = fm.FontProperties(fname=font_path, size=18)
+fontprop = fm.FontProperties(fname=font_path, size=20)
 
 sns.set(font=fontprop.get_name())
-plt.rc('font', family=fontprop.get_name())
+plt.rcParams['font.family'] = fontprop.get_name()
+# plt.rc('font', family=fontprop.get_name())
 
 
 # Define your province and city data
