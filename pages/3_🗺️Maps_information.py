@@ -38,7 +38,7 @@ sigun_list = {
 
 
 
-#sido = st.sidebar.radio("시도명을 선택하세요", sido_options)
+#sido = st.sidebar.radio("🗺️시도명을 선택하세요", sido_options)
 
 col1, col2, col3 = st.columns([1,5,2])
 with col2:
