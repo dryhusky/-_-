@@ -6,7 +6,7 @@ st.set_page_config(page_title="교통민원 데이터 통계", layout="wide", pa
 # Streamlit 애플리케이션 제목
 col1, col2, col3 = st.columns([1,5,2])
 with col2:
-    st.markdown("# 교통민원 데이터 통계 ")
+    st.markdown("# 📈교통민원 데이터 통계 ")
 
     @st.cache_data  # 👈 Add the caching decorator
     def load_data(url):
