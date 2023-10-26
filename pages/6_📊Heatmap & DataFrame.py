@@ -11,10 +11,14 @@ import matplotlib.font_manager as fm
 
 st.set_page_config(page_title="히트맵 시각화",layout="wide",page_icon="📊")
 
-# 직접 폰트 지정
-plt.rc("font", family = "NanumGothic")
-sns.set(font="NanumGothic", 
-rc={"axes.unicode_minus":False}, style='white')
+# 폰트 파일의 위치를 지정
+font_path = "./font/malgun.ttf"
+
+# 폰트 프로퍼티를 생성
+fontprop = fm.FontProperties(fname=font_path, size=18)
+
+sns.set(font=fontprop.get_name())
+plt.rc('font', family=fontprop.get_name())
 
 
 # Define your province and city data
