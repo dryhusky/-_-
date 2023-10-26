@@ -7,18 +7,17 @@ import branca
 import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib.font_manager as fm 
-
-
+import os
+    
 st.set_page_config(page_title="히트맵 시각화",layout="wide",page_icon="📊")
 # --
 # 한글폰트 적용
+# font_path = './font/NanumGothic-Bold.ttf'
+# fontprop = fm.FontProperties(fname=font_path, size=18)
 
-font_path = './font/NanumGothic-Bold.ttf'
-fontprop = fm.FontProperties(fname=font_path, size=18)
-
-sns.set(font=fontprop.get_name(),rc={"axes.unicode_minus":False},
-    style='darkgrid')
-plt.rc('font', family=fontprop.get_name())
+# sns.set(font=fontprop.get_name(),rc={"axes.unicode_minus":False},
+#     style='darkgrid')
+# plt.rc('font', family=fontprop.get_name())
 
 # 폰트 파일의 위치를 지정
 # font_path = './font/NanumGothic-Bold.ttf'
@@ -83,8 +82,10 @@ with col2:
     # Filter the DataFrame based on the selected "시도" and "시군"
     filtered_df = df[(df['시군구_시도명'] == selected_sido) & (df['시군구_시군명'] == selected_sigun)]
 
-    selected_columns = ['교통사고위험지수', '꼬리물기_건수', '불법유턴_건수', '불법좌회전_건수', '신호위반_건수', '역주행_건수', '정지선침범_건수', '중앙선침범_건수',
-                        '지정차로위반_건수', '진로변경방법위반_건수', '민원_전체건수']
+    # selected_columns = ['교통사고위험지수', '꼬리물기_건수', '불법유턴_건수', '불법좌회전_건수', '신호위반_건수', '역주행_건수', '정지선침범_건수', '중앙선침범_건수',
+    #                     '지정차로위반_건수', '진로변경방법위반_건수', '민원_전체건수']
+    selected_columns = ['traffic_weight', 'Tailgating', 'Illegal U-turns', 'Illegal left turn', 'Signal Violation', 'Reverse driving', 'Stop Line Violations', 'Center line violation',
+                    'Lane Violation', 'Course change violation','Total complaints']
 
 
     # Create a subset of the DataFrame with only the selected columns
