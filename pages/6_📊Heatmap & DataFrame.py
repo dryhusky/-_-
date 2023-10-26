@@ -12,8 +12,7 @@ import matplotlib.font_manager as fm
 st.set_page_config(page_title="히트맵 시각화",layout="wide",page_icon="📊")
 
 # 폰트 파일의 위치를 지정
-font_path = "./font/malgun.ttf"
-
+font_path = './font/NanumGothic-Bold.ttf'
 # 폰트 프로퍼티를 생성
 fontprop = fm.FontProperties(fname=font_path, size=18)
 
