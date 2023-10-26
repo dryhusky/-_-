@@ -14,12 +14,16 @@ st.set_page_config(page_title="히트맵 시각화",layout="wide",page_icon="�
 # 폰트 파일의 위치를 지정
 font_path = './font/NanumGothic-Bold.ttf'
 # 폰트 프로퍼티를 생성
-fontprop = fm.FontProperties(fname=font_path, size=20)
+fontprop = fm.FontProperties(fname=font_path, size=18)
 
-sns.set(font=fontprop.get_name())
-plt.rcParams['font.family'] = fontprop.get_name()
-# plt.rc('font', family=fontprop.get_name())
+sns.set(font=fontprop.get_name(),rc={"axes.unicode_minus":False},
+        style='darkgrid')
+plt.rc('font', family=fontprop.get_name())
 
+# sns.set(font="Malgun Gothic", 
+#         rc={"axes.unicode_minus":False},
+#         style='darkgrid')
+                
 
 # Define your province and city data
 sido_options = ["선택","서울특별시", "부산광역시", "대구광역시", "인천광역시", "광주광역시", "대전광역시", "울산광역시", "세종특별자치시",  "경기도", "강원도",
