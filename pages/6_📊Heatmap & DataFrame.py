@@ -70,7 +70,7 @@ with col2:
     </style>
     """, unsafe_allow_html=True)
 
-    st.markdown('<b><p class="big-font">시도-시군별 교통사고위험지수 민원건수 상관관계</p></b>', unsafe_allow_html=True)
+    st.markdown('<b><p class="big-font">📊 시도-시군별 교통사고위험지수 민원건수 상관관계</p></b>', unsafe_allow_html=True)
     
     col4,col5 = st.columns([1,1])
     with col4:
