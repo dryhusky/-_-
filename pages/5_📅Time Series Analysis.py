@@ -22,7 +22,7 @@ with col2:
     </style>
     """, unsafe_allow_html=True)
 
-    st.markdown('<b><p class="big-font">2023년 시도-시군별 민원 건수 예측 그래프</p></b>', unsafe_allow_html=True)
+    st.markdown('<b><p class="big-font">📅 2023년 시도-시군별 민원 건수 예측 그래프</p></b>', unsafe_allow_html=True)
     
     
     sido_options = ["선택","서울특별시", "부산광역시", "대구광역시", "인천광역시", "광주광역시", "대전광역시", "울산광역시", "세종특별자치시",  "경기도", "강원도",
@@ -88,7 +88,7 @@ with col2:
         forecast_df = pd.DataFrame({'날짜': forecast_dates, '예측된_민원_전체건수_2023': forecast})
 
         # 2023년 예측 데이터 시각화
-        st.write('# 📅2023년 민원 건수 예측')
+        st.write('# 2023년 민원 건수 예측')
         st.line_chart(forecast_df.set_index('날짜'))
 
         # 2023년 예측 데이터 표시
