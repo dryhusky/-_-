@@ -38,7 +38,7 @@ sigun_list = {
 
 
 
-#sido = st.sidebar.radio("🗺️시도명을 선택하세요", sido_options)
+#sido = st.sidebar.radio("시도명을 선택하세요", sido_options)
 
 col1, col2, col3 = st.columns([1,5,2])
 with col2:
@@ -50,7 +50,7 @@ with col2:
     </style>
     """, unsafe_allow_html=True)
 
-    st.markdown('<b><p class="big-font">시도-시군별 민원 정보 및 사고 정보 Map</p></b>', unsafe_allow_html=True)
+    st.markdown('<b><p class="big-font">🗺️시도-시군별 민원 정보 및 사고 정보 Map</p></b>', unsafe_allow_html=True)
     
     col4,col5 = st.columns([1,1])
     with col4:
