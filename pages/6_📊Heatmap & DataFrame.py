@@ -84,8 +84,7 @@ with col2:
 
     # selected_columns = ['교통사고위험지수', '꼬리물기_건수', '불법유턴_건수', '불법좌회전_건수', '신호위반_건수', '역주행_건수', '정지선침범_건수', '중앙선침범_건수',
     #                     '지정차로위반_건수', '진로변경방법위반_건수', '민원_전체건수']
-    selected_columns = ['traffic_weight', 'Tailgating', 'Illegal U-turns', 'Illegal left turn', 'Signal Violation', 'Reverse driving', 'Stop Line Violations', 'Center line violation',
-                    'Lane Violation', 'Course change violation','Total complaints']
+    selected_columns = ['traffic_weight', 'Tailgating', 'Illegal U-turns', 'Illegal left turn', 'Signal Violation', 'Reverse driving', 'Stop Line Violations', 'Center line violation', 'Lane Violation', 'Course change violation','Total complaints']
 
 
     # Create a subset of the DataFrame with only the selected columns
