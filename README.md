@@ -2,9 +2,9 @@
 
 ## 공모전 정보
 
-- **주최**: [국민권익위원회]
-- **공모전 이름**: [제 3회 국민권익위원회 민원데이터 분석 경진대회]
-- **공모전 링크**: [공모전 웹사이트](https://www.thinkcontest.com/thinkgood/user/contest/view.do?querystr=bdGyXy-ofuj5eYNoUvwuLevUVTxwFir_GomVHxMzQRQ)
+- **주최**: 국민권익 위원회
+- **공모전 이름**: 제 3회 국민권익위원회 민원데이터 분석 경진대회
+- **공모전 링크**: [공모전 바로가기](https://www.thinkcontest.com/thinkgood/user/contest/view.do?querystr=bdGyXy-ofuj5eYNoUvwuLevUVTxwFir_GomVHxMzQRQ)
 - **기간**: 2023년 09월 25일부터 2023년 10월 06일까지
 - **목적**: 국민들이 주로 신고해 주시는 유형을 10가지 종류로 분류하였으며(과태료 부과체계와 무관) 경진대회용 모의데이터를 활용한 시각화 및 정책아이디어 제시
 
@@ -39,4 +39,4 @@
 
 ## 웹배포
 
-https://citizendatacompetition-mkvefmzwbblrylg8qqphk4.streamlit.app/
+[🚘교통관련 데이터 시각화 갤러리](https://citizendatacompetition-mkvefmzwbblrylg8qqphk4.streamlit.app/)
